@@ -1,7 +1,11 @@
-# janky-slack
+# janky-slack-custom
 
 [Slack](https://slack.com/) chat service adapter for
 [Janky](https://github.com/github/janky).
+
+Adds custom slack message with user who ask for the build
+
+![preview](/slack-message.png)
 
 ## Installation
   * Add `gem "janky-slack-custom", "~>0.1"` to your `Gemfile`
