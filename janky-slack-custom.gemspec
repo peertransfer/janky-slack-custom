@@ -3,7 +3,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |spec|
   spec.name          = 'janky-slack-custom'
-  spec.version       = '0.1.0'
+  spec.version       = '0.1.1'
   spec.authors       = ['Jose Luis Salas']
   spec.email         = ['joseluis@flywire.com']
   spec.summary       = 'Custom slack chat service adapter for Janky.'
@@ -16,6 +16,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.6'
-  spec.add_development_dependency 'rake', '~> 0'
-  spec.add_development_dependency 'janky', '~> 0'
+  spec.add_development_dependency 'rake', '~> 12.3'
+  spec.add_development_dependency 'janky', '~> 0.13.0.pre1'
+  spec.add_development_dependency 'slack.rb', '~> 0.0.6'
 end
